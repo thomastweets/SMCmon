@@ -1,0 +1,22 @@
+{
+  "name": "smcmon",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "electron-screenshot-app": "^2.0.0",
+    "jade": "^1.11.0",
+    "macstats": "^0.7.2",
+    "menubar": "^3.0.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.1.0",
+    "electron-prebuilt": "^0.36.0"
+  },
+  "scripts": {
+    "build": "electron-packager . Example --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns",
+    "start": "electron ."
+  },
+  "author": "Thomas Emmerling",
+  "license": "MIT"
+}
