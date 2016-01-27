@@ -1,7 +1,7 @@
 {
   "name": "smcmon",
   "version": "0.0.1",
-  "description": "",
+  "description": "Electron menu bar monitor for temperatures and fan speeds on a Mac",
   "main": "index.js",
   "dependencies": {
     "electron-screenshot-app": "^2.0.0",
